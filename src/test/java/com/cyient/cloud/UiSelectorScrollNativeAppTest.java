@@ -42,7 +42,7 @@ public class UiSelectorScrollNativeAppTest {
 		
 		
 		String visibleText = "Arts";
-		
+
         driver.findElementByAndroidUIAutomator
         ("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"" + visibleText + "\").instance(0))").click();
 		
