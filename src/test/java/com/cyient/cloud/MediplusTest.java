@@ -40,6 +40,7 @@ public class MediplusTest {
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		
 		
+		driver.findElementByXPath("//android.widget.Image").click();
 		driver.findElementByXPath("//*[@text='Account']").click();
 		//click on account
 		driver.findElementByXPath("//android.widget.EditText").sendKeys("hello");
