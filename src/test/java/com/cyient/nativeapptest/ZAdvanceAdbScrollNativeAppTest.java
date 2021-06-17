@@ -11,7 +11,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class AdvanceAdbScrollNativeAppTest {
+public class ZAdvanceAdbScrollNativeAppTest {
 
 	public static void main(String[] args) throws MalformedURLException {
 		

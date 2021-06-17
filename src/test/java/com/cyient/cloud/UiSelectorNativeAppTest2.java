@@ -40,6 +40,8 @@ public class UiSelectorNativeAppTest2 {
 	
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		
+		
+		
 		driver.findElementByAndroidUIAutomator("UiSelector().text(\"Dismiss\")").click();	
 		
 		driver.findElementByAndroidUIAutomator("UiSelector().description(\"Profile tab\")").click();

@@ -9,7 +9,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class InstallAppTest {
+public class InstallApp1Test {
 
 	public static void main(String[] args) throws MalformedURLException {
 		//install app
